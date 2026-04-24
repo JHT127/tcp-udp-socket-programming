@@ -1,4 +1,4 @@
-# tcp-udp-socket-programming
+# Tcp-Udp-Socket-Programming
 
 > HTTP/1.1 file server and real-time multiplayer game server — both built on raw TCP/UDP sockets in Python, no framework abstractions.
 
