@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(to right, #f1f1f1);
+}
+
+.titleProperties {
+    color: #0066cc;
+    text-align: center;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.titleProperties2 {
+    color: #ff0000;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.member-box {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.member-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    border: 3px solid #ff0000;
+}
+
+.member-info {
+    margin-top: 15px;
+}
+
+.member-info p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0066cc;
+}
+
+.member-id {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.topic_img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 25px auto;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #ff0000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.links-section {
+    text-align: center;
+}
+
+.links-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a0707df;
+}
+
+.links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links-section a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 900px) {
+    .team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+}
