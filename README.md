@@ -4,6 +4,8 @@
 
 ---
 
+**Team** : Joud Thaher , Labiba Sharia , Woroud Hamayel
+
 ## What Was Built
 
 | Component | What It Is |
